@@ -1,0 +1,14 @@
+"""
+Program a system that takes as inputs:
+Length of the base of a triangle
+Perpendicular height of the triangle
+System should output the area of the triangle
+"""
+#User imput
+a = float(input("Enter lenght of a[cm]: "))
+b = float(input("Enter lenght of b[cm]: "))
+
+#Operation
+Area = (a*b)/2
+#Result of operation
+print(f"Area of triangle: {Area}cm^2")
