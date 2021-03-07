@@ -1,0 +1,17 @@
+"""
+Length of time of a journey (minutes)
+Program a system that takes as inputs:
+Average speed of the car over the length of a journey
+Distance the car has to travel
+System should output, in minutes, the length of time the journey will take
+"""
+# User input
+speed = float(input("Enter speed: "))
+dist = float(input("Enter distance: "))
+
+# Operation
+time = speed/dist
+
+#Result
+print(f"Result of operation is: {time}")
+
