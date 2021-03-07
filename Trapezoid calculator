@@ -1,0 +1,12 @@
+"""
+Program a system that takes the three inputs required to calculate the area of a trapezoid and outputs the area
+"""
+#User imput
+a = float(input("Enter Lenght of α[cm]: "))
+b = float(input("Enter Lenght of ϐ[cm]: "))
+c = float(input("Enter Lenght of ℽ[cm]: "))
+
+#Operation
+area = a*b*c/2
+#Result of operation
+print(f"Area of trapezoid: {area}cm^2")
